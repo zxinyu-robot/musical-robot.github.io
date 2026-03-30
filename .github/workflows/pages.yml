@@ -22,7 +22,7 @@ jobs:
           hugo-version: "0.92.2"
 
       - name: Build
-        run: hugo --minify --baseURL "https://zxinyu-robot.github.io/"
+        run: hugo --minify --baseURL "https://zxinyu-robot.github.io/musical-robot.github.io/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
