@@ -1,0 +1,40 @@
+baseURL = "https://zxinyu-robot.github.io/"
+title = "曾欣宇"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+enableRobotsTXT = true
+paginate = 5
+
+# 主题使用 Hugo Modules 拉取，无需本地 themes 目录
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "experience"
+    name = "经历"
+    url = "/experience/"
+    weight = 20
+  [[menu.main]]
+    identifier = "projects"
+    name = "支线：代表项目"
+    url = "/projects/"
+    weight = 50
+
+[params]
+  description = "机器人 / 无人系统算法工程师，专注 SLAM、多传感器融合与边缘 AI 部署。"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  showtoc = true
+
+  # 让主页信息更像“主线入口”
+  [params.homeInfoParams]
+    title = "主线介绍 + 支线项目"
+    content = "以“分章节目录”组织个人背景；用“代表项目”支线聚焦你的工程成果。"
+
