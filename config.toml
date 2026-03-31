@@ -10,17 +10,17 @@ paginate = 5
   [[menu.main]]
     identifier = "about"
     name = "关于我"
-    url = "/about/"
+    url = "about/"
     weight = 10
   [[menu.main]]
     identifier = "experience"
     name = "经历"
-    url = "/experience/"
+    url = "experience/"
     weight = 20
   [[menu.main]]
     identifier = "projects"
     name = "支线：代表项目"
-    url = "/projects/"
+    url = "projects/"
     weight = 50
 
 [params]
